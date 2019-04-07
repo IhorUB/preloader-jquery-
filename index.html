@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>preloader</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(window).on('load', function() {
+            $('.preloader').addClass('complete');
+        })
+    </script>
+
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-ring">
+            Загрузка
+            <span></span>
+        </div>
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ubiBTVwlvK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>
